@@ -7,9 +7,11 @@ public class Main {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
+		int N = 0, soma = 1;
 		
-		
-		
+		N = sc.nextInt();
+				
+
 		
 		
 		sc.close();
