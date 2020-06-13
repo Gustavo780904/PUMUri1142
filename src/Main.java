@@ -11,7 +11,15 @@ public class Main {
 		
 		N = sc.nextInt();
 				
-
+		for (int i = 0; i < N; i ++) {
+			soma = soma + 1;
+			if (soma % 4 != 0) {
+			System.out.print(soma + " ");
+			}else {
+			System.out.println("PUM");
+			}
+			
+		}
 		
 		
 		sc.close();
